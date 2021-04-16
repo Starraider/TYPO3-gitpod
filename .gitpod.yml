@@ -10,7 +10,7 @@ tasks:
     prebuild: |
       sudo docker-up &
       export DDEV_NONINTERACTIVE=true
-      .ddev/gitpod-setup-ddev.sh
+      sudo .ddev/gitpod-setup-ddev.sh
       ddev composer install
     init: |
       .ddev/gitpod-setup-ddev.sh
