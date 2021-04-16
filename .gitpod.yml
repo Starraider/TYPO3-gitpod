@@ -5,14 +5,14 @@ image:
 # when starting a workspace all docker images are ready
 tasks:
   - name: docker-up
-    command: sudo docker-up
+    init: sudo docker-up
   - name: ddev
     prebuild: |
       sudo docker-up &
       export DDEV_NONINTERACTIVE=true
       .ddev/gitpod-setup-ddev.sh
       ddev composer install
-    command: |
+    init: |
       .ddev/gitpod-setup-ddev.sh
       ddev composer install
       gp await-port 8080 && gp preview $(gp url 8080)
