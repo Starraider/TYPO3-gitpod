@@ -5,7 +5,7 @@
 
 ## Try it out
 
-1. Click on the following link https://gitpod.io/#https://github.com/shaal/ddev-gitpod
+1. Click on the following link https://gitpod.io/#https://github.com/Starraider/TYPO3-gitpod
 2. Your environment is being prepared, wait about 40 seconds (A splash screen will appear)
 3. VScode (or Theia) IDE will be displayed.
 4. Note that one terminal is running sudo docker-up, and another terminal in parallel is running ddev start
