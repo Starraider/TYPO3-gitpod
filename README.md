@@ -1,7 +1,7 @@
 
 # TYPO3 + Gitpod
 
-## Set up a full TYPO# dev environment in a browser
+## Set up a full TYPO3 dev environment in a browser
 
 ## Try it out
 
