@@ -1,6 +1,7 @@
 
 # TYPO3 + Gitpod
 
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Starraider/TYPO3-gitpod)
 ## Set up a full TYPO3 dev environment in a browser
 
 ## Try it out
