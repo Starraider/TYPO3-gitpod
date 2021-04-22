@@ -10,7 +10,8 @@ tasks:
     prebuild: |
       sudo docker-up &
       export DDEV_NONINTERACTIVE=true
-      sudo .ddev/gitpod-setup-ddev.sh
+      chmod 777 .ddev/gitpod-setup-ddev.sh
+      ./.ddev/gitpod-setup-ddev.sh
       ddev composer install
     init: |
       chmod 777 .ddev/gitpod-setup-ddev.sh
@@ -22,6 +23,7 @@ ports:
   - port: 6942
     onOpen: ignore
   - port: 8080
+    onOpen: open-browser
   - port: 8025
     onOpen: ignore
   - port: 8026
@@ -31,8 +33,11 @@ ports:
   - port: 8037
     onOpen: ignore
   - port: 8443
-    onOpen: ignore
+    onOpen: open-browser
   - port: 8043
+    onOpen: open-browser
+  - port: 36255
+    onOpen: open-browser
   - port: 9999
 
 github:
