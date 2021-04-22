@@ -19,5 +19,5 @@
 *.tgz
 
 
-
+error.log
 /vendor/
