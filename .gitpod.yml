@@ -51,3 +51,13 @@ github:
     addBadge: true
     # add a label once the prebuild is ready to pull requests (defaults to false)
     addLabel: true
+
+vscode:
+  extensions:
+    - pkief.material-icon-theme
+    - coenraads.bracket-pair-colorizer-2
+    - formulahendry.auto-close-tag
+    - formulahendry.auto-rename-tag
+    - editorconfig.editorconfig
+    - mrmlnc.vscode-scss
+
