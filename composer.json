@@ -10,10 +10,6 @@
     ],
     "repositories": [
         {
-            "type": "path",
-            "url": "packages/*"
-        },
-        {
             "type": "composer",
             "url": "https://composer.typo3.org/"
         }
