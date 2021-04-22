@@ -32,6 +32,7 @@ ports:
     onOpen: ignore
   - port: 8443
     onOpen: ignore
+  - port: 8043
   - port: 9999
 
 github:
