@@ -18,3 +18,7 @@
 10. Open VScode's debugger, place a new breakpoint in web/index.php
 11. Open your website's URL in a browser.
 12. 🎉
+
+## Thank you
+
+This project was inspired by [shaal/ddev-gitpod](https://github.com/shaal/ddev-gitpod)
