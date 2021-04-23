@@ -30,6 +30,7 @@
 !/public/typo3conf/LocalConfiguration.php
 !/public/typo3conf/AdditionalConfiguration.php
 
-# Test files #
-##############
-Tests/Acceptance/Support/_generated/
+# Generated files #
+###################
+.ddev/docker-compose.host-docker-internal.yaml
+/config/sites/main/config.yaml
