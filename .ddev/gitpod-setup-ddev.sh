@@ -43,5 +43,5 @@ done
 
 # Misc housekeeping before start
 ddev config global --instrumentation-opt-in=true --router-bind-all-interfaces=true
-
+ddev config --project-type=typo3 --docroot=public --create-docroot
 ddev start

@@ -20,19 +20,15 @@
 
 ### TYPO3 ###
 #############
-/public/fileadmin/*
-/public/index.php
-/public/typo3
-/public/typo3conf/.gitignore
-/public/typo3conf/ENABLE_INSTALL_TOOL
-/public/typo3conf/realurl_autoconf.php
-/public/typo3conf/l10n
-/public/typo3conf/ext
-/public/typo3temp
-/public/uploads
-/var
+/var/*
+!/var/labels
 /vendor
-composer.lock
+/public/*
+!/public/.htaccess
+!/public/typo3conf
+/public/typo3conf/*
+!/public/typo3conf/LocalConfiguration.php
+!/public/typo3conf/AdditionalConfiguration.php
 
 # Test files #
 ##############
