@@ -2,6 +2,9 @@
 # TYPO3 + Gitpod
 
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Starraider/TYPO3-gitpod)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://PayPal.me/SvenKalbhenn)
+![GitHub](https://img.shields.io/github/license/Starraider/TYPO3-gitpod)
+![GitHub issues](https://img.shields.io/github/issues/Starraider/TYPO3-gitpod)
 
 ## Set up a full TYPO3 dev environment in a browser
 
