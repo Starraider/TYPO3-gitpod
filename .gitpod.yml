@@ -13,10 +13,12 @@ tasks:
       chmod 777 .ddev/gitpod-setup-ddev.sh
       ./.ddev/gitpod-setup-ddev.sh
       ddev composer install
+      ddev exec touch public/FIRST_INSTALL
     init: |
       chmod 777 .ddev/gitpod-setup-ddev.sh
       ./.ddev/gitpod-setup-ddev.sh
       ddev composer install
+      ddev exec touch public/FIRST_INSTALL
       gp await-port 8080 && gp preview $(gp url 8080)
 # Set the following ports public
 ports:
