@@ -1,13 +1,22 @@
 {
     "name": "typo3/cms-base-distribution",
-    "description": "TYPO3 CMS Base Distribution",
+    "description": "TYPO3 CMS Base Distribution in Gitpod",
     "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Sven Kalbhenn",
+            "email": "sven@skom.de"
+        }
+    ],
     "config": {
         "platform": {
             "php": "7.4.1"
         },
+        "vendor-dir": "vendor",
         "sort-packages": true
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "typo3/cms-backend": "^11.1",
         "typo3/cms-belog": "^11.1",
