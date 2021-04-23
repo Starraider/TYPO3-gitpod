@@ -20,10 +20,9 @@ tasks:
       ddev composer install
       ddev exec touch public/FIRST_INSTALL
       gp await-port 8080 && gp preview $(gp url 8080)
-      echo -e "TYPO3: "$(gp url 8080)
+      echo "TYPO3: "$(gp url 8080)
       echo "PhpMyAdmin: "$(gp url 8036)
       echo "MailHog: "$(gp url 8025)
-      printf "TYPO3: %s\nPhpMyAdmin: %s\nMailHog: %s\n" $(gp url 8080) $(gp url 8036) $(gp url 8025)
 # Set the following ports public
 ports:
   - port: 6942
